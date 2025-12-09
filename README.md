@@ -48,7 +48,7 @@ This project performs a complete data pipeline on the **Online Retail dataset**,
   - **Year**, **Month**, **Day** extracted from `InvoiceDate`.
 
 - Stored the cleaned dataset in a new SQL table:  
-  **`online_retail_clean`**
+  **`RetailData_Cleaned`**
 
 ---
 
@@ -85,16 +85,11 @@ This project performs a complete data pipeline on the **Online Retail dataset**,
   - Customer ranking
   - Demand analysis
 - Summary of key findings.
-- This downloadable `README.md` documenting the workflow.
 
 ---
 
 ## Author
-Prepared for Online Retail Data Processing & Analysis Project.
+Prepared for Online Retail Data Processing & Analysis Project By Felix Amenya Kenyansa.
 """
 
-# Create README.md using pypandoc
-output_path = "/mnt/data/README.md"
-pypandoc.convert_text(readme_text, 'md', format='md', outputfile=output_path, extra_args=['--standalone'])
 
-output_path
